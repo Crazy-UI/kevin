@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logosappleappstore</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#27E178" offset="0%"></stop>
+            <stop stop-color="#05BB55" offset="100%"></stop>
+        </linearGradient>
+        <path d="M41,82 C63.6443,82 82,63.6443 82,41 C82,18.3557 63.6443,0 41,0 C18.3557,0 0,18.3557 0,41 C0,63.6443 18.3557,82 41,82" id="path-2"></path>
+        <path d="M53.25,41.5 C59.7393458,41.5 65,36.2393458 65,29.75 C65,23.2606542 59.7393458,18 53.25,18 C46.7606542,18 41.5,23.2606542 41.5,29.75 L41.5,53.25 C41.5,59.7393458 36.2393458,65 29.75,65 C23.2606542,65 18,59.7393458 18,53.25 C18,46.7606542 23.2606542,41.5 29.75,41.5" id="path-4"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-80, -454)">
+            <g id="LogosAppleAppStore" transform="translate(80, 454)">
+                <g id="IconParkSolidWeixinMiniApp" transform="translate(19, 19)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="路径" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="路径" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

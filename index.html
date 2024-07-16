@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin - UI/UX Designer</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn nav" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>     
+                <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn nav" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>                   
+                    <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="index">
+        <div class="hello">
+            <div class="title">
+                <div class="title-hi">你好, 我是</div>
+                <a class="title-name" href="">褚珂文</a>
+            </div>
+            <div class="hello-desc" id="typed"></div>
+        </div>
+        <div class="content-divider"></div>
+        <div class="quickly-link">
+            <div class="title-hi">我能做什么？</div>
+            <div class="loader"></div>
+            <div class="link-card">
+                <div class="link-card-list">
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/app.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">App设计</div>
+                                <div class="info-desc">拥有设计整套App风格界面和交互的能力</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/xiaochengxu.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">小程序设计</div>
+                                <div class="info-desc">更轻、更快，最大程度适应和支持客户需求</div>
+                            </div>                        
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/brand.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">品牌网站</div>
+                                <div class="info-desc">展现品牌硬实力，优化企业正面形象</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/government.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">政务官网</div>
+                                <div class="info-desc">准确、清晰、迅速的传达政务信息</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/Dashboard.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">B端平台</div>
+                                <div class="info-desc">营造高效、安全、便捷的“用户使用过程”</div>
+                            </div>                      
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/icon.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">图标精绘</div>
+                                <div class="info-desc">根据产品调性绘制整套统一风格的图标</div>
+                            </div>                           
+                        </a>
+                    </div>                                     
+                </div>
+                
+                <div class="link-card-list">
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/interaction.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">交互设计</div>
+                                <div class="info-desc">遵循结构清晰、功能完整、逻辑统一的原则</div>
+                            </div>    
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/animation.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">动效设计</div>
+                                <div class="info-desc">迅速、准确、完整的对用户的操作进行反馈</div>
+                            </div>    
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/upgrade.svg" alt="">
+                            <div class="info">
+                                <div class="info-title">反馈与迭代</div>
+                                <div class="info-desc">倾听用户反馈，快速对产品优化迭代</div>
+                            </div>    
+                        </a>
+                    </div>                                       
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by <a href="https://asorn.cn/" target="_blank">Asorn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="https://github.com/asorn/asorn-open?tab=readme-ov-file" target="_blank">感谢Asorn的开源项目 ↗</a>
+            </div>                
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script>
+    // 打字效果，感谢 typed.js: https://mattboldt.github.io/typed.js/docs/
+    const options = {
+        strings: [
+            ">_ 欢迎来到我的主页 ^1000",
+            ">_ 让我们一起探索吧 ^1000",
+        ],
+        typeSpeed: 50, // 打印速度
+        backSpeed: 20, // 回退速度
+        startDelay: 300, // 开始之前的延迟300毫秒
+        loop: true, // 是否循环
+        showCursor: false, // 不显示光标
+    };
+    const typed = new Typed('#typed', options);
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>

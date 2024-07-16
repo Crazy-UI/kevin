@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin - Work</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+    <style>
+        .highlight-box {
+            width: 100%;
+            padding: 16px;
+            max-width: var(--mw);
+            background: linear-gradient(180deg, rgba(78, 78, 100, 0.16) 0%, rgba(78, 78, 100, 0.08) 100%);
+            margin: 32px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            border-radius: 6px;            
+        }
+        .toptext{
+            font-size: 1.2rem;
+            font-weight: 400;       
+        }
+    </style>
+
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn nav" onclick="window.location.href='./work.html'">作品</li>
+                <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn nav" onclick="window.location.href='./work.html'">作品</li>
+                    <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+        <div class="work">
+            <div class="highlight-box">
+                <div class="toptext">🖥️  企业/机构官网（部分展示） ↓</div>
+            </div>
+                                             
+            <div class="card-list">  
+                <div class="magical item">
+                    <a>
+                        <div class="dark"><img class="cover" src="./assets/work/huacheng.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">花城办公家具</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">现代化高端办公家具一站式方案解决商</div>
+                        </div>
+                    </a>
+                </div>          
+                <div class="magical item">
+                    <a href="http://www.lyhaihui.com/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/haihui.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">海惠新材料</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">科技型新材料、新能源企业官网定制</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="http://www.huolidu.com/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/ztzm.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">上海知肽知美生物科技</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">生物科技领域新质生产力企业官网定制</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="https://shengbaokj.com/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/sbwl.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">圣宝网络科技</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">AI大数据处理、人工智能方案提供商</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="https://www.lydbk.com/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/dbk.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">邓保康</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">现代化大型健康产业集群企业</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="http://guokematerial.com/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/guoke.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">国科新材料</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">高端精密机械零部件研发企业（英、俄双语）</div>
+                        </div>
+                    </a>
+                </div>                                
+                <div class="magical item">
+                    <a href="https://www.yssygy.com.cn/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/yang.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">杨氏佰年沙园膏药</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">始于清顺治年间的百年老字号、中国非遗传承</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="http://www.twdiamond.cn" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/diamond.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">碳为钻石</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">用头发培育钻石，打造中国培育钻石新生代品牌</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="http://en-lyfancydiamond.bce242.lyqingfeng.cn/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/fancy.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">美钻新材料</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">用头发培育钻石，打造中国培育钻石新生代品牌</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="https://jrj.ly.gov.cn/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/financial.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">洛阳市金融工作局</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">洛阳市经济领域政策信息官方发布平台</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="https://www.hnlykfq.gov.cn/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/yibinqu.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">城乡一体化示范区（伊滨区）</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">洛阳市伊滨区政府办公室官方网站</div>
+                        </div>
+                    </a>
+                </div><div class="magical item">
+                    <a href="https://sf.ly.gov.cn/" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/legal.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">洛阳市司法局</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-assets">Web</div>
+                            </div>
+                            <div class="desc">中共洛阳市委全面依法治市委员会办公室</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <div class="toptext">📱  微信小程序（部分展示） ↓</div>
+            </div>
+            <div class="card-list">            
+                <div class="magical item">
+                    <a href="https://codesign.qq.com/s/445797743191566/425967693943804/presentation" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/zhengguo.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">榛果团团</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">社区新鲜果蔬团购优惠平台</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/zhihe.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">知禾点餐</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">新风尚减脂餐、健康餐、健身餐、私人订制及配送</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/zhenyou.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">臻优教培</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">臻优职业技能培训学校教培管理系统</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/jiayuan.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">佳缘职业技能培训</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">佳缘职业技能培训学校学员考题学习测试平台</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/jieyun.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">鸿悦捷运</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">短途物流配送、家具配送安装服务平台</div>
+                        </div>
+                    </a>
+                </div>                                
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/heyi.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">合一新国学</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">《新国学》系列启发创新思维课程教培管理平台</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/zhuopai.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">卓派整装定制</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">高端家装一站式定制方案展示平台</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/zhubao.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">洛阳住保服务平台</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">公积金担保、房产估值、银行融资及其他增值服务</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/ns_english.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">来可乐学</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-web">小程序</div>
+                            </div>
+                            <div class="desc">来可英语特有5S教学理念及系列课程学习平台</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <div class="toptext">📱  App↓</div>
+            </div>
+            <div class="card-list">            
+                <div class="magical item">
+                    <a href="https://www.baqiwan.com/#/game/one" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/baqi.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">霸气玩</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-app">App</div>
+                            </div>
+                            <div class="desc">一手游戏账号回收、交易平台（App和网站）</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="https://appgallery.huawei.com/app/C107824003" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/yongfudao.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">永福到</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-app">App</div>
+                            </div>
+                            <div class="desc">打造便民生活连锁服务站，推动商业资源下沉社区</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="magical item">
+                    <a href="" target="_blank">
+                        <div class="dark"><img class="cover" src="./assets/work/win.jpg"></div>
+                        <div class="text">
+                            <div class="title-area">
+                                <div class="title">
+                                    <div class="name">权易赢</div>
+                                    <div class="name link"> ↗</div>
+                                </div>
+                                <div class="tag tag-app">App</div>
+                            </div>
+                            <div class="desc">法律服务有偿咨询平台，帮助用户快速解决司法疑问</div>
+                        </div>
+                    </a>
+                </div>                                                              
+                
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                <div>© 2023 Design by <a href="https://asorn.cn/" target="_blank">Asorn</a></div>
+                <span>|</span>
+                <div class="fillings">
+                    <a href="https://github.com/asorn/asorn-open?tab=readme-ov-file" target="_blank">感谢Asorn的开源项目 ↗</a>
+                </div>           
+            </div>
+        </div>
+        <div class="widget">
+            <div class="shape-light"></div>
+            <div class="shape-star">
+                <div class="rising-stars rising-stars-visible">
+                    <div style="height:1px;width:1px"></div>
+                    <div style="height:2px;width:2px"></div>
+                    <div style="height:1px;width:1px"></div>
+                </div>
+            </div>
+            <div class="shape-earth"></div>
+        </div>
+</body>
+<script>
+    window.addEventListener("mousemove", function (e) {
+        document.querySelectorAll(".magical").forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const offsetY = e.clientY - rect.top;
+            element.style.setProperty("--mouse-x", `${offsetX}px`);
+            element.style.setProperty("--mouse-y", `${offsetY}px`);
+        });
+    });
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>

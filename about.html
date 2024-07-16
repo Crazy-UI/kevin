@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin - about</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>
+                <li class="magical btn nav" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>
+                    <li class="magical btn nav" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="about">
+        <div class="about-top">
+            <div class="about-name">褚珂文</div>
+            <div class="about-info">
+                <div class="about-info-left">
+                    <div class="about-info-title">简介</div>
+                    <div class="introduce-desc">
+                        👨🏻‍💻 大家好，我是一名热爱生活的UI设计师，专注于将美感与技术创新融合，为用户提供既美观又实用的数字体验。我立志成为一名优秀的全链路UI设计师！<br/><br/>
+                        🧑‍🎨 在数字设计领域，我将自己比作色彩和线条的编织者，遵循“用户体验设计”的原则，讲述用户最真实的心声。从自然界的细微之美到现代科技的前沿动态，都是我灵感的源泉。我享受沉浸在不同文化与艺术风格中，这让我在设计时能更加灵活多变，创造出富有感染力的作品。<br/><br/>
+                        💪 我希望通过不断地学习与实践，能在未来的设计旅程中，引领或参与塑造一些革新性的产品体验。我相信，优秀的设计不仅能解决现实问题，还能激发情感共鸣，为人们的生活带来积极影响。<br/><br/>                       
+                        🙋🏻 在行业经验方面，我拥有超过6年的UI设计实践经验，期间参与了多个从概念到上线的项目建设，覆盖了移动应用、Web界面设计等多个领域。我擅长在快节奏的环境中保持设计的一致性和高品质，每一次成功案例都加深了我对如何平衡商业目标与用户体验的理解。<br/><br/>
+                        👀 我一直对于最新的设计趋势保持密切的关注。当前，我特别关注于可访问性设计、动态效果的微妙运用以及人工智能在设计中的辅助作用。我认为，随着技术的发展，设计应更加注重包容性，同时利用新技术创造更加沉浸式和个性化的用户体验。
+                    </div>
+                </div>
+                <div class="about-info-right">
+                    <div class="contact">
+                        <div class="about-info-title">Contact</div>
+                        <div class="contact-desc">
+                            <div class="list">
+                                <div class="list-label">Email：</div>
+                                <div href="javascript:" class="list-value" id="email" tabindex="0" role="button"  title="点击复制邮箱">
+                                    <a id="emailCopied">kewen0912@outlook.com</a>
+                                </div>
+                                <span class="list-value copied">copied&nbsp;✓</span>
+                            </div>
+                            <div class="list">
+                                <div class="list-label">Wechat：</div>
+                                <div class="list-value">
+                                    <a class="tooltip">chukewen
+                                        <div class="tooltip-box">
+                                            <img src="./assets/about/wechat.jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume">
+                        <div class="about-info-title resume-title">Resume</div>
+                        <div class="resume-desc">
+                            <div class="resume-desc-helptext">我的简历 (PDF)</div>
+                            <div class="magical resume-btn"><a>查看</a></div>
+                        </div>                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="about-middle">
+            <div class="power">
+                <div class="list-00">
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">7</div>
+                            <div class="card-text">工作经历/年</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">90 ⁺</div>
+                            <div class="card-text">完整定制项目</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card-number">
+                        <a>
+                            <div class="card-title">15 ⁺</div>
+                            <div class="card-text">涉及领域</div>
+                        </a>
+                    </div>                   
+                </div>
+                <div class="list-01">
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/sketch.svg')"></div>
+                            <div class="card-text">精准把握用户需求和产品定位，合理的交互和界面</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/abstract.svg')"></div>
+                            <div class="card-text">结构、系统化设计思维，注重用户体验与数据驱动</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/develop.svg')"></div>
+                            <div class="card-text">开发、角色共情能力，利用工程化思维解决问题</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pin.svg')"></div>
+                            <div class="card-text">具备研发团队管理经验，深度参与产品开发全部流程</div>
+                        </a>
+                    </div>
+                    <div class="magical power-card">
+                        <a>
+                            <div class="card-img" style="background-image: url('./assets/about/pen.svg')"></div>
+                            <div class="card-text">丰富的 B、C 端多行业产品设计经验，像素强迫症</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-bottom">
+            <div class="experience">
+                <div class="item">
+                    <div class="time">❖ 2018.07 ~ 至今</div>
+                    <div class="name">
+                        <div class="company"><a href="https://www.lyqingfeng.cn/" target="_blank">洛阳青峰网络科技有限公司 ↗</a></div>
+                        <div class="job">高级UI/UX设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">客户线上推广资产输出</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>通过和客户面对面沟通、实地拜访等方式，了解客户业务特点，深挖客户个性需求，确定合适的品牌调性和设计方向。 </li>
+                                    <li>根据调研结果和客户需求制定制作高保真或低保真原型，包括但不限于web网站、App、H5、小程序、线下推广物料等。</li>
+                                    <li>面向本地各行业、企业以及个体经营者，为客户提供全网营销方案和技术服务，助力客户提升品牌形象。</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="title">青峰建站平台优化与升级</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>负责建站平台设计规范的建设与维护，统一设计语言，规范设计组件，协同开发团队制定合理的迭代策略。 </li>
+                                    <li>协同开发团队建立规范化、可复用、可变通的组件库，并根据团队特点制定个性化的产品研发流程，使产品交付效率提高25%。</li>                                                                      
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">❖ 2016.08 ~ 2018.06</div>
+                    <div class="name">
+                        <div class="company"><a>洛阳捷融网络科技有限公司</a></div>
+                        <div class="job">UI设计师</div>
+                    </div>
+                    <div class="project-experience">
+                        <div class="item">
+                            <div class="title">主要负责</div>
+                            <div class="desc">
+                                <ul>
+                                    <li>负责公司自研客户管理平台“搜客宝”App的界面设计和交互体验设计;</li>
+                                    <li>梳理用户反馈意见，与开发工程师一起讨论并制定升级优化策略;</li>
+                                    <li>负责节假日平台Banner图、海报、H5推广页面等营销物料的制作.</li>
+                                </ul>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by <a href="https://asorn.cn/" target="_blank">Asorn</a></div>
+            <span>|</span>
+            <div class="fillings">
+                <a href="https://github.com/asorn/asorn-open?tab=readme-ov-file" target="_blank">感谢Asorn的开源项目 ↗</a>
+            </div>           
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>

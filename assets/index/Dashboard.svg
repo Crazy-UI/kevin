@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logosappleappstore</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-80, -454)">
+            <g id="LogosAppleAppStore" transform="translate(80, 454)">
+                <g id="Dashboard" transform="translate(23, 23)">
+                    <path d="M0,18 L14,18 L14,74 L6,74 C2.6862915,74 2.02906125e-16,71.3137085 0,68 L0,18 L0,18 Z" id="矩形备份-2" fill="#4C96FB"></path>
+                    <path d="M18,18 L74,18 L74,68 C74,71.3137085 71.3137085,74 68,74 L18,74 L18,74 L18,18 Z" id="矩形备份-3" fill="#0563C9"></path>
+                    <path d="M68,24 C69.1045695,24 70,24.8954305 70,26 L70,36 C70,37.1045695 69.1045695,38 68,38 C66.8954305,38 66,37.1045695 66,36 L66,28 L58,28 C56.9456382,28 56.0818349,27.1841222 56.0054857,26.1492623 L56,26 C56,24.8954305 56.8954305,24 58,24 L68,24 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M36,56 C37.1045695,56 38,56.8954305 38,58 L38,68 C38,69.1045695 37.1045695,70 36,70 C34.8954305,70 34,69.1045695 34,68 L34,60 L26,60 C24.9456382,60 24.0818349,59.1841222 24.0054857,58.1492623 L24,58 C24,56.8954305 24.8954305,56 26,56 L36,56 Z" id="路径备份" fill="#FFFFFF" fill-rule="nonzero" transform="translate(31, 63) scale(-1, -1) translate(-31, -63)"></path>
+                    <path d="M8,0 L66,0 C70.418278,-8.11624501e-16 74,3.581722 74,8 L74,14 L74,14 L0,14 L0,8 C-5.41083001e-16,3.581722 3.581722,5.41083001e-16 8,0 Z" id="矩形" fill="#4C96FB"></path>
+                    <circle id="椭圆形" fill="#FF5E5E" cx="9.5" cy="7.5" r="2.5"></circle>
+                    <circle id="椭圆形备份-4" fill="#FFBB43" cx="18.5" cy="7.5" r="2.5"></circle>
+                    <circle id="椭圆形备份-5" fill="#21E09D" cx="27.5" cy="7.5" r="2.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
